@@ -20,7 +20,7 @@ After filtering for all rows where "total votes" was greater than 20 (in order t
 
 
 -Based on these results, it is unlikely there is any positivity bias for reviews in the Vine program. However, more testing and analysis would need to be performed to certify this assumption. 
-
+- Additional analyses that could be done to further back up this assumption would be running the same analysis we just did but on a large sample of S3 datasets. While there was no positivity bias indicated in our analysis of sports equipment reviews, we would need to perform the same analysis on a large random sample of datasets in order to help verify our conclusion.
 
 
 
