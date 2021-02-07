@@ -6,16 +6,16 @@ The purpose of this analysis was to determine if there was any bias in reviews b
 ## Results
 After filtering for all rows where "total votes" was greater than 20 (in order to find reviews most likely helpful), we created two new dataframes, one of them with only paid Vine users, and the other all unpaid users. 
 
-![2]()
+![2](2.PNG)
 
 
 
 
-![paid]()
+![paid](paid.PNG)
 - We see that for paid users there were 129 total 5-star reviews out of 311 (about 41.5%)
 
 
-![unpaid]()
+![unpaid](unpaid.PNG)
 - For unpaid users, the total number of 5-star reviews was 30,631 out of 57,509 (about 53.2%)
 
 
