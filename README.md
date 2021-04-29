@@ -9,16 +9,16 @@ The main chunk of the work for this analysis came with the ETL process. First, P
 ## Results
 After filtering for all rows where "total votes" was greater than 20 (in order to find reviews most likely helpful), we created two new dataframes, one of them with only paid Vine users, and the other all unpaid users. 
 
-![2](2.PNG)
+![2](Images/2.PNG)
 
 
 
 
-![paid](paid.PNG)
+![paid](Images/paid.PNG)
 - We see that for paid users there were 129 total 5-star reviews out of 311 (about 41.5%)
 
 
-![unpaid](unpaid.PNG)
+![unpaid](Images/unpaid.PNG)
 - For unpaid users, the total number of 5-star reviews was 30,631 out of 57,509 (about 53.2%)
 
 
