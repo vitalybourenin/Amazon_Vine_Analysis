@@ -3,6 +3,9 @@
 # Summary
 The purpose of this analysis was to determine if there was any bias in reviews based on whether or not it was paid for. By analyzing both paid and unpaid reviews, we can see if there are any differences in the amount of 5-star reviews for paid Vine-membership reviews and unpaid reviews. 
 
+# Technologies Used
+The main chunk of the work for this analysis came with the ETL process. First, PySpark is used to extract the original data from Amazon S3. The cleaned data is then loaded into a PostgreSQL database in Amazon's RDS system, exported as a CSV and read into a Pandas DataFrame in Jupyter Notebook to complete our analysis. 
+
 ## Results
 After filtering for all rows where "total votes" was greater than 20 (in order to find reviews most likely helpful), we created two new dataframes, one of them with only paid Vine users, and the other all unpaid users. 
 
