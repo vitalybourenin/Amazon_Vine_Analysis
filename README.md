@@ -1,10 +1,10 @@
 # Amazon_Vine_Analysis
 
 # Summary
-The purpose of this analysis was to determine if there was any bias in reviews based on whether or not it was paid for. By analyzing both paid and unpaid reviews, we can see if there are any differences in the amount of 5-star reviews for paid Vine-membership reviews and unpaid reviews. 
+The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies pay a small fee to Amazon and provide products to Amazon Vine members, who are required to publish a review. The purpose of this analysis is to determine if there is any bias in reviews based on whether the reviewer was paid to make that review, or did so by choice. By analyzing both paid and unpaid reviews, we can see if there are any differences in the amount of 5-star reviews for paid Vine-membership reviews and unpaid reviews. 
 
 # Technologies Used
-The main chunk of the work for this analysis came with the ETL process. First, PySpark is used to extract the original data from Amazon S3. The cleaned data is then loaded into a PostgreSQL database in Amazon's RDS system, exported as a CSV and read into a Pandas DataFrame in Jupyter Notebook to complete our analysis. 
+The main chunk of the work for this analysis came in the ETL process. First, PySpark is used to extract the original data from Amazon S3. The cleaned data is then loaded into a PostgreSQL database in Amazon's RDS system, exported as a CSV and read into a Pandas DataFrame in Jupyter Notebook to complete our analysis. 
 
 ## Results
 After filtering for all rows where "total votes" was greater than 20 (in order to find reviews most likely helpful), we created two new dataframes, one of them with only paid Vine users, and the other all unpaid users. 
